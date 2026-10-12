@@ -1,0 +1,24 @@
+TaskManagerTrace Start: 0 : Начало операции AddTask
+TaskManagerTrace Verbose: 4 : AddTask: проверка названия задачи
+TaskManagerTrace Stop: 1 : Завершение AddTask. Результат: ошибка. задача не добавлена. Всего задач: 0. Время: 1,803 мс
+TaskManagerTrace Start: 0 : Начало операции AddTask
+TaskManagerTrace Verbose: 4 : AddTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : AddTask: создание задачи и добавление в коллекцию
+TaskManagerTrace Stop: 1 : Завершение AddTask. Результат: успех. добавлена задача 'Учить C#'. Всего задач: 1. Время: 3,137 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 1
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех. список выведен. Всего задач: 1. Время: 1,055 мс
+TaskManagerTrace Start: 0 : Начало операции RemoveTask
+TaskManagerTrace Verbose: 4 : RemoveTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : RemoveTask: поиск задачи 'xyz' в коллекции
+TaskManagerTrace Stop: 1 : Завершение RemoveTask. Результат: ошибка. задача 'xyz' не найдена. Всего задач: 1. Время: 0,104 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 1
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех. список выведен. Всего задач: 1. Время: 0,064 мс
+TaskManagerTrace Start: 0 : Начало операции RemoveTask
+TaskManagerTrace Verbose: 4 : RemoveTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : RemoveTask: поиск задачи 'Учить C#' в коллекции
+TaskManagerTrace Stop: 1 : Завершение RemoveTask. Результат: успех. удалена задача 'Учить C#'. Всего задач: 0. Время: 0,084 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 0
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех. список пуст. Всего задач: 0. Время: 0,188 мс

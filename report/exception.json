@@ -1,0 +1,16 @@
+{
+  "Timestamp": "2026-10-13T00:26:01.7896516+03:00",
+  "Level": "Error",
+  "MessageTemplate": "!!! Ошибка !!! Перехвачено исключение в операции {Operation}",
+  "RenderedMessage": "!!! Ошибка !!! Перехвачено исключение в операции \"RemoveTask\"",
+  "Exception": "System.Collections.Generic.KeyNotFoundException: Задача \"xyz\" не найдена для удаления\r\n   at TaskManagerApp.TaskManager.RemoveTask(String title) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\TaskManager.cs:line 58\r\n   at TaskManagerApp.Program.<>c__DisplayClass2_1.<RunTaskManager>b__1() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\Program.cs:line 105\r\n   at TaskManagerApp.ExceptionHandler.Execute(String operation, Action action, String taskTitle) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\ExceptionHandler.cs:line 11",
+  "Properties": {
+    "Operation": "RemoveTask",
+    "TaskTitle": "xyz",
+    "StackTrace": "   at TaskManagerApp.TaskManager.RemoveTask(String title) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\TaskManager.cs:line 58\r\n   at TaskManagerApp.Program.<>c__DisplayClass2_1.<RunTaskManager>b__1() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\Program.cs:line 105\r\n   at TaskManagerApp.ExceptionHandler.Execute(String operation, Action action, String taskTitle) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt5\\ExceptionHandler.cs:line 11",
+    "ExceptionMessage": "Задача \"xyz\" не найдена для удаления",
+    "ExceptionType": "System.Collections.Generic.KeyNotFoundException",
+    "Application": "TaskManager",
+    "SessionId": "671f4f45-337b-4d4d-b63e-0b7bb522190c"
+  }
+}
